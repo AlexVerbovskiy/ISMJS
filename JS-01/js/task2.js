@@ -3,7 +3,7 @@ document.getElementById('btask2').addEventListener('click', function ()
     let a=parseFloat(document.getElementById('ia2').value);
     let b=parseFloat(document.getElementById('ib2').value);
     let c=parseFloat(document.getElementById('ic2').value);
-    let D=4*a*c-b*b;
+    let D=b*b-4*a*c;
     let k=0;
     document.getElementById('res2').style.display="block";
     if(D>0){
